@@ -1,7 +1,7 @@
 module.exports.config = {
     name: "yad",
     version: "1.0.0",
-    hasPermssion: 1,
+    hasPermssion: 2,
     credits: "Aasif Alam",
     description: "Call Bot No reply",
     commandCategory: "ai",
