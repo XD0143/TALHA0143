@@ -64,18 +64,18 @@ var link =[
 "https://i.imgur.com/e505Ko2.mp4",
 "https://i.imgur.com/3umJ6NL.mp4",
 		];
-var callback = () => api.sendMessage({body:`➢ Admin and Bot Information
+var callback = () => api.sendMessage({body:`➢ 𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 ☠️⚡(𝐍𝐎𝐓𝐄) 𝑦𝑖 𝑣𝑖𝑑𝑂𝑠 𝑂𝑛 𝑚𝑎𝑡 𝑘𝑟𝑛𝑎 𝑏𝑎𝐾𝑖𝑖 𝑎𝑝 𝑠𝑎𝑏 𝐾𝑖 𝑎𝑝𝑛𝑖 𝑚𝑎𝑟𝑍𝑖 - ☠️👻
 
-⁂ Bot Name: ${global.config.BOTNAME}
-✧ Bot Admin: ${global.config.ADMINBOT}
-♛ Bot Admin Link: https://www.facebook.com/MR.AARYAN.HERE
-❂ Bot Prefix: ${global.config.PREFIX}
-✫ Bot Owner: https://www.facebook.com/MR.AARYAN.HERE
+⁂ 𝔹𝕆𝕋 ℕ𝔸𝕄𝔼: ${global.config.BOTNAME}
+✧ 𝔹𝕆𝕋 𝔸𝔻𝕄𝕀ℕ: ${global.config.ADMINBOT}
+♛ 𝔹𝕆𝕋 𝔸𝔻𝕄𝕀ℕ 𝕃𝕀ℕ𝕂: 𝘩𝘵𝘵𝘱𝘴://𝘸𝘸𝘸.𝘧𝘢𝘤𝘦𝘣𝘰𝘰𝘬.𝘤𝘰𝘮/𝘔 𝘛𝘈𝘓𝘏𝘈.𝘏𝘌𝘙𝘌
+❂ 𝔹𝕆𝕋 ℙℝ𝔼𝔽𝕀𝕏: ${global.config.PREFIX}
+✫ 𝔹𝕆𝕋 𝕆𝕎ℕ𝔼ℝ: 𝘩𝘵𝘵𝘱𝘴://𝘸𝘸𝘸.𝘧𝘢𝘤𝘦𝘣𝘰𝘰𝘬.𝘤𝘰𝘮/𝘔 𝘛𝘈𝘓𝘏𝘈.𝘏𝘌𝘙𝘌
 ➟ UPTIME
-✬ Today is: ${juswa} 
+✬ 𝕋𝕆𝔻𝔸𝕐 𝕀𝕊: ${juswa} 
 
-➳ Bot is running ${hours}:${minutes}:${seconds}.
-✫ Thanks for using ${global.config.BOTNAME}
+➳ 𝔹𝕆𝕋 𝕀𝕊 ℝ𝕌ℕℕ𝕀ℕ𝔾 ${hours}:${minutes}:${seconds}.
+✫ 𝕋ℍ𝔸ℕ𝕂𝕊 𝔽𝕆ℝ 𝕌𝕊𝕀ℕ𝔾 ${global.config.BOTNAME}
 `,attachment: fs.createReadStream(__dirname + "owner_video.mp4")}, event.threadID, () => fs.unlinkSync(__dirname + "owner_video.mp4")); 
 	 return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"owner_video.mp4")).on("close",() => callback());
 	};
