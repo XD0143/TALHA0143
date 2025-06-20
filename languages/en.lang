@@ -59,14 +59,14 @@ users.needObject=Have to be an Object
 
 # includes/handle/handleCommand.js
 
-handleCommand.userBanned=⛔️~Tu Banned Hai Re 🤭!~🚫\n%1\n%2\nContact B0T Owner Chuza  🖤 For Unban ⚠️
-handleCommand.threadBanned=⛔️Your Thread/Box/Group Has Been Banned!⛔️\n%1\n%2 Please Contact Owner Chuza For Unban ⚠️
-handleCommand.commandNotExist=Abe Yaar Pura Command To Likh Le 😹 %1 Yes Or Not ? 🙄
+handleCommand.userBanned=⛔️~𝐓𝐮 𝐁𝐚𝐧𝐧𝐞𝐝 𝐇𝐚𝐢 𝐑𝐞 🤭!~🚫\n%1\n%2\n𝐂𝐨𝐧𝐭𝐚𝐜 𝐁𝟎𝐓 𝐎𝐰𝐧𝐞𝐫 𝐓𝐚𝐥𝐇𝐚  🖤 𝐅𝐨𝐫 𝐔𝐧𝐛𝐚𝐧 ⚠️
+handleCommand.threadBanned=⛔️𝐘𝐨𝐮𝐫 𝐓𝐡𝐫𝐞𝐚𝐝/𝐁𝐨𝐱/𝐆𝐫𝐨𝐮𝐩 𝐇𝐚𝐬 𝐁𝐞𝐞𝐧 𝐁𝐚𝐧𝐧𝐞𝐝!⛔️\n%1\n%2 𝐏𝐥𝐞𝐚𝐬𝐞 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐎𝐰𝐧𝐞𝐫 𝐓𝐀𝐋𝐇𝐀 𝐅𝐨𝐫 𝐔𝐧𝐛𝐚𝐧 ⚠️
+handleCommand.commandNotExist=𝐀𝐛𝐲 𝐒𝐡𝐩𝐞𝐫 𝐩𝐮𝐫𝐚 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐭𝐎 𝐥𝐞𝐚𝐤𝐡 𝐥𝐲 𝐛𝐡𝐎𝐝𝐒𝐤 😹 %1 𝐧𝐎𝐢𝐢 𝐭𝐎 𝐡𝐚𝐛𝐬𝐡𝐢 𝐮𝐚𝐭𝐡𝐚 𝐥𝐲 𝐣𝐚𝐲𝐞𝐧𝐆𝐲 🤧☠️😂 ? 
 handleCommand.commandThreadBanned=Your thread is unable to use command "%1"
 handleCommand.commandUserBanned=You are unable to use command "%1"
 handleCommand.threadNotAllowNSFW=Your thread is not allowed to use NSFW commands
 handleCommand.cantGetInfoThread=Can't get your thread's info, error: %1
-handleCommand.permssionNotEnough=📑Ye command 📝Sirf Mere *★᭄𝗢𝘄𝗻𝗲𝗿 ཫ༄𒁍≛⃝𝐂𝐇𝐔𝐙𝐀 Ko Hi Allow Hai ✋❌ "%1"
+handleCommand.permssionNotEnough=📑𝐘𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 📝𝐒𝐢𝐫𝐟 𝐌𝐞𝐫𝐞 *★᭄𝗢𝘄𝗻𝗲𝗿 ཫ༄𒁍≛⃝𝐓𝐀𝐋𝐇𝐀 𝐊𝐨 𝐇𝐢 𝐀𝐥𝐥𝐨𝐰 𝐇𝐚𝐢 𝐓𝐮 𝐚𝐩𝐍𝐚 𝐓𝐢𝐦𝐞 𝐰𝐞𝐒𝐭 𝐧𝐚 𝐊𝐫 𝐗𝐡𝐚𝐥 𝐛𝐚𝐆𝐡 🤧✋❌ "%1"
 handleCommand.cantSetMessageReaction=Having some unexpected error at setMessageReaction, error: %1
 handleCommand.executeCommand=[ %1 ] Command used: %2 by user: %3 at thread: %4 | Args included: %5 | Processing time: %6ms
 handleCommand.commandError=Having some unexpected error when using command %1, error: %2
